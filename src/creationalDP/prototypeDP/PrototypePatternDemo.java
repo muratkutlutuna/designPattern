@@ -21,6 +21,8 @@ public class PrototypePatternDemo {
         notAvailableSoldier2.setAvailableToFight(false);
         notAvailableSoldier2.setWeapon("Gun");
         notAvailableSoldier2.showSoldierInfo();
+        notAvailableSoldier.showSoldierInfo();
+
 
     }
 }

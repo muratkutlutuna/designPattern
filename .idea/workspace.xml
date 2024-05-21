@@ -5,24 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d31008aa-062f-41ea-b0a4-a2bea2602ef0" name="Changes" comment="AbstractFactoryDesignPattern and PrototypeDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/prototypeDP/PrototypePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/prototypeDP/Soldier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/IphoneDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/AESEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/CustomEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/FacadeEncryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/MD5Encryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/SHAEncryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Blue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ColorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ColorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/FactoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Green.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Green.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Red.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/FactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/FactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/prototypeDP/PrototypePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/prototypeDP/PrototypePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/prototypeDP/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/prototypeDP/Soldier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonPatternDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +59,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;muratkutlutuna&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/muratkutlutuna/designPattern.git&quot;,
+    &quot;accountId&quot;: &quot;c67302cc-09b0-4a3e-9a81-18a2a0f8c896&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2fyEC9zBa6cag3uMIvmPJj1fLC1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,9 +87,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AbstractFactoryPatternDemo.executor": "Run",
+    "Application.CustomEncryptor.executor": "Run",
+    "Application.FactoryPatternDemo.executor": "Run",
+    "Application.PrototypePatternDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/user/IdeaProjects/designPattern/src/creationalDP/abstractfactoryDP"
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/muratkutlutuna/Documents/Advanced Java/designPattern",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,13 +107,26 @@
       <recent name="creationalDP.abstractfactoryDP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrototypePatternDemo">
+  <component name="RunManager" selected="Application.CustomEncryptor">
     <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creationalDP.abstractfactoryDP.AbstractFactoryPatternDemo" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="creationalDP.abstractfactoryDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomEncryptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralDP.facadeDP.CustomEncryptor" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structuralDP.facadeDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,10 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomEncryptor" />
         <item itemvalue="Application.PrototypePatternDemo" />
         <item itemvalue="Application.AbstractFactoryPatternDemo" />
-        <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Application.FactoryPatternDemo" />
+        <item itemvalue="Application.SingletonPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +202,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FactoryDesignPattern" />

@@ -1,5 +1,7 @@
 package creationalDP.factoryDP;
 
+import java.util.Arrays;
+
 public class FactoryPatternDemo {
     public static void main(String[] args) {
 //        Circle circle1 = new Circle();
@@ -20,6 +22,5 @@ public class FactoryPatternDemo {
         Shape shape3 = shapeFactory.getShape("Rectangle");
         shape3.draw();
 
-        //TODO: Design pattern 1st video 51:09      https://lms.techproeducation.com/mod/book/view.php?id=8048
     }
 }
