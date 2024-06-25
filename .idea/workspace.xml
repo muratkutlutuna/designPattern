@@ -4,44 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31008aa-062f-41ea-b0a4-a2bea2602ef0" name="Changes" comment="AbstractFactoryDesignPattern and PrototypeDesignPattern">
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/IphoneDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/AESEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/CustomEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/FacadeEncryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/MD5Encryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/facadeDP/SHAEncryptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d31008aa-062f-41ea-b0a4-a2bea2602ef0" name="Changes" comment="Decorator and Facade design patterns">
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/DecoratorRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11Pro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11ProMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/ImageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/ImageProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/ProxyRunners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/RealImageClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Blue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ColorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ColorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/FactoryProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Green.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Green.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Red.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/abstractfactoryDP/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/FactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/FactoryPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/factoryDP/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/factoryDP/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/prototypeDP/PrototypePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/prototypeDP/PrototypePatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/prototypeDP/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/prototypeDP/Soldier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creationalDP/singletonDP/SingletonPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +61,17 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AbstractFactoryPatternDemo.executor": "Run",
     "Application.CustomEncryptor.executor": "Run",
+    "Application.DecoratorRunner.executor": "Run",
     "Application.FactoryPatternDemo.executor": "Run",
     "Application.PrototypePatternDemo.executor": "Run",
+    "Application.ProxyRunners.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/muratkutlutuna/Documents/Advanced Java/designPattern",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,7 +82,7 @@
       <recent name="creationalDP.abstractfactoryDP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomEncryptor">
+  <component name="RunManager" selected="Application.ProxyRunners">
     <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creationalDP.abstractfactoryDP.AbstractFactoryPatternDemo" />
       <module name="designPattern" />
@@ -134,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creationalDP.factoryDP.FactoryPatternDemo" />
+    <configuration name="DecoratorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralDP.decoratorDP.DecoratorRunner" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creationalDP.factoryDP.*" />
+          <option name="PATTERN" value="structuralDP.decoratorDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creationalDP.singletonDP.SingletonPatternDemo" />
+    <configuration name="ProxyRunners" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralDP.proxyDP.ProxyRunners" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creationalDP.singletonDP.*" />
+          <option name="PATTERN" value="structuralDP.proxyDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyRunners" />
+        <item itemvalue="Application.DecoratorRunner" />
         <item itemvalue="Application.CustomEncryptor" />
         <item itemvalue="Application.PrototypePatternDemo" />
         <item itemvalue="Application.AbstractFactoryPatternDemo" />
-        <item itemvalue="Application.FactoryPatternDemo" />
-        <item itemvalue="Application.SingletonPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714766344216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Decorator and Facade design patterns">
+      <option name="closed" value="true" />
+      <created>1716332218148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716332218148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FactoryDesignPattern" />
     <MESSAGE value="AbstractFactoryDesignPattern and PrototypeDesignPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="AbstractFactoryDesignPattern and PrototypeDesignPattern" />
+    <MESSAGE value="Decorator and Facade design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator and Facade design patterns" />
   </component>
 </project>
