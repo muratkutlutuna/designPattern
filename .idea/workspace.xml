@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31008aa-062f-41ea-b0a4-a2bea2602ef0" name="Changes" comment="Decorator and Facade design patterns">
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/DecoratorRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11Pro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11ProMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/ImageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/ImageProxyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/ProxyRunners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/proxyDP/RealImageClass.java" afterDir="false" />
+    <list default="true" id="d31008aa-062f-41ea-b0a4-a2bea2602ef0" name="Changes" comment="proxy and UML">
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/Expert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/MediatorRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/MessageDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/MessageExpert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/CompositeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/Finance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/HRDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/RnD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/Sales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structuralDP/decoratorDP/Iphone11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +63,11 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AbstractFactoryPatternDemo.executor": "Run",
+    "Application.CompositeRunner.executor": "Run",
     "Application.CustomEncryptor.executor": "Run",
     "Application.DecoratorRunner.executor": "Run",
     "Application.FactoryPatternDemo.executor": "Run",
+    "Application.MediatorRunner.executor": "Run",
     "Application.PrototypePatternDemo.executor": "Run",
     "Application.ProxyRunners.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -82,13 +87,13 @@
       <recent name="creationalDP.abstractfactoryDP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProxyRunners">
-    <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creationalDP.abstractfactoryDP.AbstractFactoryPatternDemo" />
+  <component name="RunManager" selected="Application.MediatorRunner">
+    <configuration name="CompositeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structuralDP.compositeDP.CompositeRunner" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creationalDP.abstractfactoryDP.*" />
+          <option name="PATTERN" value="structuralDP.compositeDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creationalDP.prototypeDP.PrototypePatternDemo" />
+    <configuration name="MediatorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavirolDP.mediatorDP.MediatorRunner" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creationalDP.prototypeDP.*" />
+          <option name="PATTERN" value="behavirolDP.mediatorDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorRunner" />
+        <item itemvalue="Application.CompositeRunner" />
         <item itemvalue="Application.ProxyRunners" />
         <item itemvalue="Application.DecoratorRunner" />
         <item itemvalue="Application.CustomEncryptor" />
-        <item itemvalue="Application.PrototypePatternDemo" />
-        <item itemvalue="Application.AbstractFactoryPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716332218148</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="proxy and UML">
+      <option name="closed" value="true" />
+      <created>1719323700795</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719323700795</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +214,7 @@
     <MESSAGE value="FactoryDesignPattern" />
     <MESSAGE value="AbstractFactoryDesignPattern and PrototypeDesignPattern" />
     <MESSAGE value="Decorator and Facade design patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator and Facade design patterns" />
+    <MESSAGE value="proxy and UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy and UML" />
   </component>
 </project>

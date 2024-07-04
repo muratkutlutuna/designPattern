@@ -7,6 +7,5 @@ public class DecoratorRunner {
         System.out.println("Number of camera : " + iphone11ProMax.cameraCount());
         System.out.println("Price : " + iphone11ProMax.getPrice());
 
-//TODO:  third video of design pattern
     }
 }
