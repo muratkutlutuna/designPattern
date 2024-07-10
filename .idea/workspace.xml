@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d31008aa-062f-41ea-b0a4-a2bea2602ef0" name="Changes" comment="proxy and UML">
-      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/Dispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/Expert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/MediatorRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/MessageDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavirolDP/mediatorDP/MessageExpert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/CompositeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/Finance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/HRDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/RnD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structuralDP/compositeDP/Sales.java" afterDir="false" />
+    <list default="true" id="d31008aa-062f-41ea-b0a4-a2bea2602ef0" name="Changes" comment="Mediator and composite design patterns">
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/chainOfResponsibilityDP/Approver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/chainOfResponsibilityDP/ChainOfRespRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/chainOfResponsibilityDP/GeneralManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/chainOfResponsibilityDP/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/chainOfResponsibilityDP/Officer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/observerDP/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/observerDP/NewsAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/observerDP/NewsChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavirolDP/observerDP/ObserverRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +61,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AbstractFactoryPatternDemo.executor": "Run",
+    "Application.ChainOfRespRunner.executor": "Run",
     "Application.CompositeRunner.executor": "Run",
     "Application.CustomEncryptor.executor": "Run",
     "Application.DecoratorRunner.executor": "Run",
@@ -87,7 +86,20 @@
       <recent name="creationalDP.abstractfactoryDP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MediatorRunner">
+  <component name="RunManager" selected="Application.ObserverRunner">
+    <configuration name="ChainOfRespRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavirolDP.chainOfResponsibilityDP.ChainOfRespRunner" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavirolDP.chainOfResponsibilityDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompositeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structuralDP.compositeDP.CompositeRunner" />
       <module name="designPattern" />
@@ -101,38 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomEncryptor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structuralDP.facadeDP.CustomEncryptor" />
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structuralDP.facadeDP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecoratorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structuralDP.decoratorDP.DecoratorRunner" />
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structuralDP.decoratorDP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MediatorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavirolDP.mediatorDP.MediatorRunner" />
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavirolDP.mediatorDP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavirolDP.observerDP.ObserverRunner" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavirolDP.observerDP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverRunner" />
+        <item itemvalue="Application.ChainOfRespRunner" />
         <item itemvalue="Application.MediatorRunner" />
         <item itemvalue="Application.CompositeRunner" />
         <item itemvalue="Application.ProxyRunners" />
-        <item itemvalue="Application.DecoratorRunner" />
-        <item itemvalue="Application.CustomEncryptor" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719323700795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mediator and composite design patterns">
+      <option name="closed" value="true" />
+      <created>1720069676407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720069676407</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +222,7 @@
     <MESSAGE value="AbstractFactoryDesignPattern and PrototypeDesignPattern" />
     <MESSAGE value="Decorator and Facade design patterns" />
     <MESSAGE value="proxy and UML" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy and UML" />
+    <MESSAGE value="Mediator and composite design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mediator and composite design patterns" />
   </component>
 </project>

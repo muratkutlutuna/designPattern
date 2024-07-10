@@ -25,5 +25,4 @@ public class MediatorRunner {
         mathExpert.sendMessage("chemistry", "Message about Chemistry");
 
     }
-    //TODO: 1:47:50 third video of the design pattern
 }
